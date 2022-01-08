@@ -1,0 +1,14 @@
+name: BoatInFly
+version: '${version}'
+main: dev.moru3.boatinfly.BoatInFly
+api-version: 1.16
+commands:
+  flyinboatvelocity:
+    description: ボートが飛ぶ際のベクトルを設定します。
+    permission: flyinboat.set
+  flyinboatlastvelocity:
+    description: ボートが飛ぶ際の最後のベクトルを設定します。
+    permission: flyinboat.set
+permissions:
+  flyinboat.set:
+    default: op
